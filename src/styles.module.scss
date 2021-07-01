@@ -1,0 +1,24 @@
+.AppContainer {
+    padding: 20px;
+    .Input {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    .Checkbox {
+        margin: 15px;
+        padding: 20px;
+        transform: scale(2);
+        cursor: pointer;
+    }
+    .ActionContainer {
+        display: flex;
+        div {
+            margin: 5px;
+            padding: 20px;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
